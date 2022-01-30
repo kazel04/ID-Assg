@@ -4,6 +4,7 @@ Interactive Demo Website for AI Chatbot
 
 Technologies used
 The following technologies will be used to construct the website 
+
 .API
 https://www.webopedia.com/definitions/api/, API will be used to make the Chatbot 
 .Javascript
