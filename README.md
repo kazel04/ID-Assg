@@ -3,6 +3,7 @@ Interactive Demo Website for AI Chatbot
  This website will feature a chatbot that users can interact with, the users can use it to ask questions which the chat bot will answer. The website will not just feature the chat bot but that will also be buttons on the website for users to press. 
 
 Technologies used
+
 The following technologies will be used to construct the website 
 
 .API
@@ -18,6 +19,7 @@ https://www.keycdn.com/support/ajax-programming, AJAX will be used to help simpl
 
 
 Features in our website
+
 This website will feature a chatbot that users can interact with. There will be a chatbot icon at the bottom right of the home page. Upon clicking on it, the user will be greeted by a chatbot which the user can ask questions. The chatbot will then reply them.  There will also be buttons that the user can use to navigate through the website. 
 
 Feature 1.Chatbox for users to interact with
