@@ -1,5 +1,6 @@
 // use this code to load animations and images from database
 // referenced from https://firebase.google.com/docs/database/web/read-and-write
+// Also referenced from https://firebase.google.com/docs/storage/web/download-files
 
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from "firebase/database";
