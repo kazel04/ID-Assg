@@ -1,15 +1,12 @@
 APIs tested for this project:
 
-Firebase database for web: 
+Firebase database for web: (To store images, video and animation assets which are called by the website when needed)
 https://firebase.google.com/docs/database/web/read-and-write
 
-Lottie animations:
-https://airbnb.io/lottie/#/web
-
-Dialogflow web integration:
+Dialogflow web integration: (Core aspect of the chabot, utilised in the Kommunicate widget)
 https://cloud.google.com/dialogflow/es/docs/quick/integration 
 
-Komunnicate web widget api integration:
+Komunnicate web widget api integration: (Used to provide a user-friendly interface for chatbot interaction)
 https://docs.kommunicate.io/docs/web-installation.html#install-chat-widget-in-iframe
 
 
