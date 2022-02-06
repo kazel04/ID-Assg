@@ -79,6 +79,7 @@ getDownloadURL(ref(storage, 'images/stars.jpg'))
 
 
 // new attempt to load image based on stackoverflow: https://stackoverflow.com/questions/38819580/how-to-show-images-in-firebase-storage-by-index-html
+// Full code with example here: http://jsbin.com/kukifo/edit?html,js,console,output
 
 var config = {
   apiKey: "AIzaSyCKtgPuXUUqoyiwEm5sU3Blqc-A9xtBFsI",
