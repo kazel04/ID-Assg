@@ -123,12 +123,6 @@
 
 /* CSS for desktop-based */
 
-@media only screen and (min-width: 1025px) {
-    
-/* CSS for desktop-based */
-
-@media only screen and (min-width: 1025px) {
-
   body{
     background-color: black;
   }
@@ -254,5 +248,3 @@
         
 
     }
-}
-}
