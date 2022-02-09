@@ -68,7 +68,6 @@
         right: 44%;
         height: 100px;
         width: auto;
-        
     }
     
     img {  
@@ -207,4 +206,55 @@
     
         .Vision-SubText{
             display: none;
+        }
+
+        .animation1 {
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          position: relative;
+          animation-name: animation;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;  
+        }
+        
+        @keyframes animation {
+          0%   {background-color:magenta; left:0px; top:0px;}
+          25%  {background-color:mediumslateblue; left:500px; top:0px;}
+          50%  {background-color:white; left:400px; top:200px;}
+          75%  {background-color:aqua; left:0px; top:200px;}
+          100% {background-color:magenta; left:0px; top:0px;}
+        }
+        .animate-charcter
+{
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+ 
+ /* above animation is referenced from https://alvarotrigo.com/blog/css-text-animations/
+
+    
         }
