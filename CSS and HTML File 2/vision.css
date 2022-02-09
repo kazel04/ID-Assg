@@ -127,8 +127,8 @@
       
       .topnav #myLinks {
         display: block;
-        margin-top: 15px;
-        z-index: 2;
+        margin-top: 0px;
+        z-index: 0;
       
         
       }
@@ -354,3 +354,4 @@
 }
 
 /*above animation is referenced from https://codepen.io/mohaiman/pen/MQqMyo */
+    
