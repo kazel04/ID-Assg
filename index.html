@@ -2,6 +2,7 @@
 <head>
 <link rel="stylesheet" href="CSS/mainpage.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="mainpage.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 <script>
@@ -29,27 +30,44 @@
         <!-- Hamburger menu (mobile exclusive) (ref from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar) -->
         <!-- Change elements below and change css to hide (https://stackoverflow.com/questions/53701003/how-to-remove-the-hamburger-menu-icon-in-desktop-screen-but-only-needed-in-mobil)-->
         <div class="topnav">
-            <a href="/index.html" class="active">Psyche</a>
+            <a href="index.html" class="active">Psyche</a>
           <div id="myLinks">
-            <a href="/vision.html">VISION</a>
-            <a href="/team.html">TEAM</a>
-            <a href="/partners.html">WHAT WE DO</a>
-            <a href="/contactus.html">CONTACT US</a>
-            <a href="/demo.html">DEMO</a>
+            <a href="vision.html">VISION</a>
+            <a href="team.html">TEAM</a>
+            <a href="partners.html">WHAT WE DO</a>
+            <a href="contactus.html">CONTACT US</a>
+            <a href="demo.html">DEMO</a>
           </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
     </div>
-
-    <div class = "click-func" onclick= "clickFunction()">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+  </ul>
         <!-- title -->
-        <div class="title">
-            <h1> Metaverse </h1>
-            <h1>    X      </h1>
-            <h1>Mental Health</h1>
+        <div class="main-subtitle">
+            <h1> Website for AI Chatbot </h1>
           
         </div>
+        <div class="main-SubTextDesktop">
+            <p>This Website will have an AI chatbot for users to interact with and hopefully buy it <br>
+            Below is a Quiz for Users to try in order to learn more about Chatbots</p>
+        </div>
+        <div class="quiz-title">
+            <h4>Quiz</h4>
+            <a href="quiz.html" class="button">Type here to proceed to the Quiz</a>
+        </div>
+
 
         <!-- Animated Title for desktop-->
         <canvas id="scene"></canvas>
