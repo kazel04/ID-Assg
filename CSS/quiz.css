@@ -1,0 +1,9 @@
+body{
+background-color: black;
+background-image: linear-gradient(to right, red , yellow);
+color:white;
+}
+
+h3{
+    color:aquamarine
+}
