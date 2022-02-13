@@ -171,15 +171,20 @@
           .Notch{
             position: absolute;
             top: 40%;
-            right: 48%;
+            right: 55%;
             
         }
+        .Image2{
+          position: absolute;
+          top:40%;
+          left: 45%;
+          
+      }
         
         img {  
-          width: 200px;  
+          width: 250px;  
           height: auto;  
           }  
-    
         .Vision-SubCaption{
             top: 35%;
             right: 19%;
