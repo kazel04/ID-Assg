@@ -36,3 +36,8 @@ Feature 1.Chatbox for users to interact with
 Feature 2.Buttons to allow users to navigate through the website
 
 Feature 3.Multiple pages that will display different information
+
+
+CHECKPOINT(Week 17):
+Created order page with scrolling side menu and interactive features such as image carousel, pill menus and a loot box functionality
+Revamped sub-pages and currently finalising mainpage design
