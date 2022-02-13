@@ -1,0 +1,100 @@
+<html>
+<head>
+<link rel="stylesheet" href="CSS/order.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+
+<script>
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";  
+        }
+    }
+    </script>
+
+
+
+</head>
+    <body>
+        
+        <!-- Hamburger menu (mobile exclusive) (ref from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar) -->
+        <!-- Change elements below and change css to hide (https://stackoverflow.com/questions/53701003/how-to-remove-the-hamburger-menu-icon-in-desktop-screen-but-only-needed-in-mobil)-->
+        <div class="topnav">
+            <a href="/index.html" class="active">Psyche</a>
+          <div id="myLinks">
+            <a href="/vision.html">VISION</a>
+            <a href="/team.html">TEAM</a>
+            <a href="/partners.html">WHAT WE DO</a>
+            <a href="/contactus.html">CONTACT US</a>
+            <a href="/order.html">SUBSCRIBE</a>
+          </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+    </div>
+
+    <div class="grid-container">
+        <!-- Image/video carousel based on w3schools-->
+        <div class="item1">
+            <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+              <img src="Assets/Example-Partner1.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="Assets/Example-Partner1.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="Assets/Example-Partner1.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+        </div>  
+    </div>
+    
+
+    
+
+        <!-- Side menu, for choosing selection with referrals at the bottom and wheel of fortune for subscriber benefits etc-->
+        
+        <div class="item2">
+            <ul id="container"> <!-- Sample data to test scrolling, remove with actual data later on-->
+                <li>Article 1</li>
+                <li>Article 2</li>
+                <li>Article 3</li>
+                <li>Article 4</li>
+                <li>Article 5</li>
+                <li>Article 6</li>
+                <li>Article 7</li>
+                <li>Article 8</li>
+                <li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li><li>Article 8</li>
+              </ul>
+        </div> 
+
+        <!-- Popup description, referenced from codepen and Tesla's website-->
+<div class="contact-btn">
+	<span class="cta">Contact </span>
+	<div class="close ion-close-round"></div>
+
+	<div class="fake-input">Product Description here! </div>
+	</div>
+</div>
+
+    </body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="Javascript/order.js"></script>
+</html>
+
+
+
