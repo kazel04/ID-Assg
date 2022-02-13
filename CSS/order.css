@@ -50,7 +50,7 @@
 .item2 { 
     /* CSS for scrolling below */
     float:right; 
-    width:40%; 
+    width:30%; 
     height:90%; 
     overflow:auto;
     border:1px solid #ff00ff;
@@ -207,6 +207,155 @@ img {vertical-align: middle;}
     opacity: 1;
     position: relative;
     top: 50px;
+  }
+
+  /* CSS code for info tab */
+  
+  .info{
+      position: relative;
+      top: 2%;
+      font-size: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      color: whitesmoke;
+      background-color: darkgrey;
+      width: 300px;
+      height: 75px;
+      border-radius: 25px; 
+      padding: 2px;  
+  }
+  p {
+    /* Center horizontally*/
+    position: relative;
+    text-align: center;
+    top: 20%;
+  }
+  .title{
+      position: relative;
+      top: 7.5%;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  /* CSS for tab menu and its contents */
+  .container {
+    position: relative;
+    width: 75%;
+    margin: 3rem auto;
+    top: 8%;
+  }
+  
+  h2 {
+    position: relative;
+    color: #345F90;
+    font-size: 24px;
+    line-height: 1.25;
+    font-family: "Gotham Medium", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: 10%;
+  }
+  
+  .tab-slider--nav {
+    position: relative;
+    left: 15%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .tab-slider--tabs {
+      
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+    background: #fff;
+    height: 35px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    background: #345F90;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 250ms ease-in-out;
+    border-radius: 35px;
+  }
+  .tab-slider--tabs.slide:after {
+    left: 50%;
+  }
+  
+  .tab-slider--trigger {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    color: #345F90;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 250ms ease-in-out;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--trigger.active {
+    color: #fff;
+  }
+  
+  .tab-slider--body {
+    position: relative;
+    top: 10%;
+    margin-bottom: 20px;
+  }
+
+  .Feature1{
+    position: relative;
+    font-size: 14px;
+    top: 10%;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
+    border: 2px solid darkgreen;
+    padding: 20px;
+  }
+
+  .Feature2{
+    position: relative;
+    font-size: 14px;
+    top: 10%;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
+    border: 2px solid darkred;
+    padding: 20px;
+  }
+
+  .Feature3{
+    position: relative;
+    font-size: 14px;
+    top: 10%;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
+    border: 2px solid darkorange;
+    padding: 20px;
   }
 
  
