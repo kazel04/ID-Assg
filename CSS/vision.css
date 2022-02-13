@@ -159,7 +159,7 @@
     
         .Vision-SubTitle{
             top: 5%;
-            right: 40%;
+            right: 45%;
             position: absolute;
             text-align: center;
             font-size: 50px;
@@ -170,15 +170,13 @@
     
           .Notch{
             position: absolute;
-            top: 27%;
+            top: 40%;
             right: 48%;
-            height: 50px;
-            width: auto;
             
         }
         
         img {  
-          width: 50px;  
+          width: 200px;  
           height: auto;  
           }  
     
@@ -206,6 +204,18 @@
     
         .Vision-SubText{
             display: none;
+        }
+        .button {
+          background-color: grey;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
         }
 
         .animate-charcter
