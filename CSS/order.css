@@ -46,31 +46,15 @@
     }
 }
 
-.item1 { grid-area: picture; }
+.item1 { float:left }
 .item2 { 
-    grid-area: menu;  /* CSS for scrolling below */
-    height: 100%; /* or any value */ 
-    overflow-y: auto;
-
+    /* CSS for scrolling below */
+    float:right; 
+    width:40%; 
+    height:90%; 
+    overflow:auto;
+    border:1px solid #ff00ff;
  }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'picture picture picture picture menu menu'
-    'picture picture picture picture menu menu'
-    'picture    picture    picture    picture menu menu';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -151,7 +135,7 @@ img {vertical-align: middle;}
 /* Contact Button Start*/
 .contact-btn {
     position: absolute;
-    background-color: #fff;
+    background-color: plum;
     border-radius: 100px;
     width: 200px;
     height: 72px;
@@ -160,7 +144,7 @@ img {vertical-align: middle;}
     overflow: hidden;
     cursor: pointer;
     top: 90%;
-    left: 40%;
+    left: 30%;
     transform: translateX(-50%) translateY(-50%);
   }
   .contact-btn .cta {
