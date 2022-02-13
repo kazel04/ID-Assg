@@ -70,3 +70,35 @@ $("document").ready(function(){
     $(".tab-slider--nav li").removeClass("active");
     $(this).addClass("active");
   });
+
+  /* JS for loot boxes (TBD: add perks as a random variable after box opened and do not allow others to be opened after) */
+  function checkOpen() {
+	var allBoxes = $('.box-list li button');
+	var allOpenBoxes = $('.box-list li button.open');
+	var allBoxesAreOpen = (allBoxes.length === allOpenBoxes.length);
+	
+	if(allBoxesAreOpen)
+		{
+			$('#again').show();
+		}
+}
+
+$(document).ready(function(){
+    var object = ["$5 off subscription","Free 1 month trial", "Free 30 days trial"];
+	$('.box-list li').on('click', '.box', function (){
+		var box = $(this);
+        /* Random perk generator and notice, referenced from codepen: https://codepen.io/susier2016/pen/BKKywy*/
+        alert("You have won: " +  object[Math.floor(Math.random() * object.length)]);
+		if(box.hasClass('open'))
+			{
+				return;
+			}
+		box.addClass('click');
+		setTimeout(function (){
+			box.removeClass('click');
+			box.toggleClass('closed open');		
+			checkOpen();
+		}, 700);
+	});
+	
+});
