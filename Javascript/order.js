@@ -83,22 +83,57 @@ $("document").ready(function(){
 		}
 }
 
-$(document).ready(function(){
+$(document).ready(function(){ 
+    
     var object = ["$5 off subscription","Free 1 month trial", "Free 30 days trial"];
-	$('.box-list li').on('click', '.box', function (){
-		var box = $(this);
-        /* Random perk generator and notice, referenced from codepen: https://codepen.io/susier2016/pen/BKKywy*/
-        alert("You have won: " +  object[Math.floor(Math.random() * object.length)]);
-		if(box.hasClass('open'))
-			{
-				return;
-			}
-		box.addClass('click');
-		setTimeout(function (){
-			box.removeClass('click');
-			box.toggleClass('closed open');		
-			checkOpen();
-		}, 700);
-	});
+    var box = "";
+    var redeemed = 0;
+    var add = 1
+    var original = 0;
+
+    /* If perk has been redeemed*/
+    if(redeemed == 1){
+        $('.box-list li').on('click', '.box', function (){
+            box = $(this);       
+            if(box.hasClass('open'))
+                {
+                    alert("Box has been opened!")
+                    return;
+                }
+        alert("Perk has been redeemed")
+        return
+            
+        });
+        }
+
+
+    if (redeemed == 0){
+        $('.box-list li').on('click', '.box', function (){
+            box = $(this);
+            /* Random perk generator and notice, referenced from codepen: https://codepen.io/susier2016/pen/BKKywy*/
+            var perk = object[Math.floor(Math.random() * object.length)]
+            if(box.hasClass('open'))
+                {
+                    alert("Box has been opened!")
+                    return;
+                }
+            alert("You have won: " +  perk);
+            box.addClass('click');
+            setTimeout(function (){
+                box.removeClass('click');
+                box.toggleClass('closed open');		
+                checkOpen();
+            }, 700);
+            redeemed = add + original;
+            alert(redeemed);
+
+        });
+    }
+
+
+
+
+   
+
 	
 });
