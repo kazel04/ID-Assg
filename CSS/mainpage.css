@@ -178,7 +178,7 @@
 
   .main-SubTextDesktop{
     top: 50%;
-    right: 15%;
+    right: 31%;
     position: absolute;
     text-align: center;
     font-size: 20px;
@@ -343,3 +343,28 @@
   }
   
   /*above animation is referenced from https://codepen.io/mohaiman/pen/MQqMyo */
+
+  .waviy {
+    top:30%;
+    right: 45%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+  /* above animation is from https://alvarotrigo.com/blog/css-text-animations/ */
+
