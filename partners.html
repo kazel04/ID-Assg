@@ -7,8 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Assignment 2</title>
-    <link href="./CSS/partners.css" rel="stylesheet" type="text/css" />
+    <link href="partners.css" rel="stylesheet" type="text/css" />
   </head>
+  <script>
+      function myFunction1() {
+        document.getElementById("click").innerHTML = "Partners";
+      }
+  </script>
   <body>
 <!-- Hamburger menu (mobile exclusive) (ref from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar) -->
         <!-- Change elements below and change css to hide (https://stackoverflow.com/questions/53701003/how-to-remove-the-hamburger-menu-icon-in-desktop-screen-but-only-needed-in-mobil)-->
@@ -19,7 +24,7 @@
               <a href="team.html">TEAM</a>
               <a href="partners.html">OUR PARTNERS</a>
               <a href="contactus.html">CONTACT US</a>
-              <<a href="order.html">SUBSCRIBE</a>
+              <a href="order.html">SUBSCRIBE</a>
             </div>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -29,7 +34,7 @@
     
   <!-- title background div-->
   <div class ="background">
-<ul class="circles">
+    <ul class="circles">
       <li></li>
       <li></li>
       <li></li>
@@ -46,12 +51,12 @@
 
     <!-- title -->
     <div class= Partners-SubTitle>
-          <h1 class="animate-charcter"> PARTNERS </h1>
+          <h1 class="animate-charcter" id="click" onclick="myFunction1()"> PARTNERS </h1>
     </div>
 
     <!-- Notch decoration, asset from Adobe XD-->
     <div class="Notch">
-        <img src= "/Assets/Triangle.png"></img>
+        <img src= "Triangle.png"></img>
     </div>
 
     <!-- Body Description-->
@@ -72,26 +77,13 @@
           
       </p> </div>
 
-    <!-- Image 1 -->
-    <div class= "Partner-Image1">
-        <a href = "https://shopandgive.thegivingmachine.co.uk/mental-health-charities-you-can-support-with-thegivingmachine/">
-        <img class = "Image" src="/Assets/Example-Partner1.jpg" alt="KZ">
-        </a>
-    </div>
 
-
-     <!-- Image 2 -->
+     <!-- Image 1 -->
      <div class= "Partner-Image2" >
-         <a href = "https://shopandgive.thegivingmachine.co.uk/mental-health-charities-you-can-support-with-thegivingmachine/">
-        <img class = "Image" src="/Assets/Example-Partner2.png" alt="PG">
+         <a href = "https://www.ubisend.com/partners">
+        <img class = "Image" src="ubisend-logo.jpg" alt="Logo of ubisend">
         </a>
     </div>
 
-    <!--  Image 3 -->
-    <div class= "Partner-Image3">
-        <a href = "https://shopandgive.thegivingmachine.co.uk/mental-health-charities-you-can-support-with-thegivingmachine/">
-        <img class = "Image" src="/Assets/Example-Partner3.jpg" alt="PG">
-        </a>
-    </div>
   </body>
 </html>
