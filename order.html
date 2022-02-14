@@ -78,7 +78,7 @@
                 <p>Win extra benefits from our lucky boxes as a new member!</p>
             </div>
 
-            <div class = title> Get your own Mental Health Helper! </div>
+            <div class = title> Get Your Own Mental Health Helper! </div>
 
             <!-- Tab menu with emojis for individual vs organisation purchases which alters the info provided! (referenced from codepen: https://codepen.io/derekjp/pen/pPqwXJ)-->
             <div class="container">
@@ -94,16 +94,16 @@
                     <div id="tab1" class="tab-slider--body">
                         <br>
                         <br>
-                        <h2>Your Personal Coach</h2>
+                        <h2 style="color:lightgreen;">Your Personal Coach</h2>
                         <div class = "Feature1">Personalised mental health plans just for you</div>
                       
                         <br>
 
-                        <h2>Guided Wellness</h2>
+                        <h2 style="color:lightcoral;">Guided Wellness</h2>
                         <div class = "Feature2">Receive guided wellness sessions, from yoga to meditations</div>
                         <br>
 
-                        <h2>Para-Counselling</h2>
+                        <h2 style="color:lightsalmon;">Para-Counselling</h2>
                         <div class = "Feature3">Learn techniques to control depressive episodes</div>
                         
                         <!-- Actual creation of account using firebase, referenced from Firebase docs and Boris Karapiner: https://medium.com/@bariskarapinar/firebase-authentication-web-app-javascript-3165ebc92b68-->
@@ -112,22 +112,22 @@
                                 <h2 class="form-title">Free Account Creation</h2>
                                 <h2 class = "form-title">(Individual)</h2>
                                 <div class="form-group">
-                                    <label for="userFullName">Name<span class="text-danger ml-1">*</span></label>
+                                    <label for="userFullName" style="color:white;">Name<span class="text-danger ml-1">*</span></label>
                                     <input type="text" class="form-control" id="userFullName" onblur="checkUserFullName()" placeholder="name">
                                     <small id="userFullNameError" class="form-text text-danger">This Field must be filled.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="userSurname">Surname<span class="text-danger ml-1">*</span></label>
+                                    <label for="userSurname" style="color:white;">Surname<span class="text-danger ml-1">*</span></label>
                                     <input type="text" class="form-control" id="userSurname" onblur="checkUserSurname()" placeholder="surname">
                                     <small id="userSurnameError" class="form-text text-danger">This Field must be filled.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="userEmail">Email adress<span class="text-danger ml-1">*</span></label>
+                                    <label for="userEmail" style="color:white;">Email adress<span class="text-danger ml-1">*</span></label>
                                     <input type="email" class="form-control" id="userEmail" onblur="checkUserEmail()" placeholder="mail@mail.com">
                                     <small id="userEmailError" class="form-text text-danger">Please check your email address.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="userPassword">Password<span class="text-danger ml-1">*</span></label>
+                                    <label for="userPassword" style="color:white;">Password<span class="text-danger ml-1">*</span></label>
                                     <input type="password" class="form-control" id="userPassword" onblur="checkUserPassword()" placeholder="**********">
                                     <small id="userPasswordError" class="form-text text-danger">Your password must be uppercase, lowercase and more than 10 characters.</small>
                                 </div>
@@ -137,8 +137,8 @@
                             
                             <!-- Lucky box function below, referenced from codepen: https://codepen.io/Gigabait/pen/jOEErjr -->
                             <div id="stage" class="content-width">
-                                <h1>New Member Lucky Boxes</h1>
-                                <p>Pick any box to redeem a free perk!</p>
+                                <h1 style="color:white;" >New Member Lucky Boxes</h1>
+                                <p style="color:white;"> Pick any box to redeem a free perk!</p>
                                 <ul class="box-list">
                                     <li>
                                         <button type="button" class="box closed"></button>
@@ -168,40 +168,40 @@
                     <!-- Menu for organisation signup-->
                     <div id="tab2" class="tab-slider--body">
                         <br>
-                        <h2>Fight Burnout</h2>
+                        <h2 style="color:lightgreen;"> Fight Burnout</h2>
                         <div class = "Feature1">Give your employees the tools to overcome work stress</div>
                   
                         <br>
 
-                        <h2>Reduce Turnover Rates</h2>
+                        <h2 style="color:lightcoral;">Reduce Turnover Rates</h2>
                         <div class = "Feature2">Keep your organisation's talent by improving their work satisfaction</div>
                         <br>
 
-                        <h2>Create A Positive Culture</h2>
+                        <h2 style="color:lightsalmon;">Create A Positive Culture</h2>
                         <div class = "Feature3">Build an office culture which prioritises mental health</div>
 
                         <!-- Actual creation of account using firebase, referenced from Firebase docs and Boris Karapiner: https://medium.com/@bariskarapinar/firebase-authentication-web-app-javascript-3165ebc92b68-->
                         <div class="col-lg-10 col-md-10 p-lg-5 p-md-5 px-3 py-4">
-                            <div id="signUpForm">
+                            <div id="signUpForm" >
                                 <h2 class="form-title">Free Account Creation</h2>
                                 <h2 class = "form-title">(Organisation)</h2>
                                 <div class="form-group">
-                                    <label for="userFullName">Name<span class="text-danger ml-1">*</span></label>
+                                    <label for="userFullName" style="color:white;">Name<span class="text-danger ml-1">*</span></label>
                                     <input type="text" class="form-control" id="userFullName" onblur="checkUserFullName()" placeholder="name">
                                     <small id="userFullNameError" class="form-text text-danger">This Field must be filled.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="userSurname">Surname<span class="text-danger ml-1">*</span></label>
+                                    <label for="userSurname" style="color:white;">Surname<span class="text-danger ml-1">*</span></label>
                                     <input type="text" class="form-control" id="userSurname" onblur="checkUserSurname()" placeholder="surname">
                                     <small id="userSurnameError" class="form-text text-danger">This Field must be filled.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="userEmail">Email adress<span class="text-danger ml-1">*</span></label>
+                                    <label for="userEmail" style="color:white;">Email adress<span class="text-danger ml-1">*</span></label>
                                     <input type="email" class="form-control" id="userEmail" onblur="checkUserEmail()" placeholder="mail@mail.com">
                                     <small id="userEmailError" class="form-text text-danger">Please check your email address.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="userPassword">Password<span class="text-danger ml-1">*</span></label>
+                                    <label for="userPassword" style="color:white;">Password<span class="text-danger ml-1">*</span></label>
                                     <input type="password" class="form-control" id="userPassword" onblur="checkUserPassword()" placeholder="**********">
                                     <small id="userPasswordError" class="form-text text-danger">Your password must be uppercase, lowercase and more than 10 characters.</small>
                                 </div>
