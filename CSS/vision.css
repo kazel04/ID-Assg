@@ -159,7 +159,7 @@
     
         .Vision-SubTitle{
             top: 5%;
-            right: 45%;
+            right: 40%;
             position: absolute;
             text-align: center;
             font-size: 50px;
@@ -170,21 +170,18 @@
     
           .Notch{
             position: absolute;
-            top: 40%;
-            right: 55%;
+            top: 27%;
+            right: 48%;
+            height: 50px;
+            width: auto;
             
         }
-        .Image2{
-          position: absolute;
-          top:40%;
-          left: 45%;
-          
-      }
         
         img {  
-          width: 250px;  
+          width: 50px;  
           height: auto;  
           }  
+    
         .Vision-SubCaption{
             top: 35%;
             right: 19%;
@@ -209,18 +206,6 @@
     
         .Vision-SubText{
             display: none;
-        }
-        .button {
-          background-color: grey;
-          border: none;
-          color: white;
-          padding: 15px 32px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 4px 2px;
-          cursor: pointer;
         }
 
         .animate-charcter
@@ -251,10 +236,12 @@
 }
 
  
- /* above animation is referenced from https://codepen.io/alvarotrigo/pen/PoKMyNO*/
+ /* above animation is referenced from https://alvarotrigo.com/blog/css-text-animations/ */
 
  .circles{
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
