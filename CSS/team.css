@@ -153,8 +153,8 @@
   
   .topnav #myLinks {
     display: block;
-    margin-top: 15px;
-    z-index: 2;
+    margin-top: 0px;
+    z-index: 0;
   
     
   }
@@ -230,9 +230,9 @@
 
     .Team-Image2{
         position: absolute;
-        bottom: 57.5%;
-        right: 23%;
-        height: 100px;
+        bottom: 60%;
+        right: 18%;
+        height: 140px;
         width: auto;
     }
 
@@ -276,7 +276,8 @@
       }
     }
     
-      /* above animation is referenced from https://alvarotrigo.com/blog/css-text-animations/ */
+     
+     /* above animation is referenced from https://alvarotrigo.com/blog/css-text-animations/ */
      .circles{
   position: absolute;
   width: 100%;
