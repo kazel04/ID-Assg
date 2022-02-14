@@ -9,6 +9,11 @@
     <title>Assignment 2</title>
     <link href="team.css" rel="stylesheet" type="text/css" />
   </head>
+  <script>
+    function myFunction1() {
+      document.getElementById("click").innerHTML = "Team";
+    }
+    </script>
   <body>
 <!-- Hamburger menu (mobile exclusive) (ref from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar) -->
         <!-- Change elements below and change css to hide (https://stackoverflow.com/questions/53701003/how-to-remove-the-hamburger-menu-icon-in-desktop-screen-but-only-needed-in-mobil)-->
@@ -29,7 +34,7 @@
     
   <!-- title background div-->
   <div class ="background">
-<ul class="circles">
+    <ul class="circles">
       <li></li>
       <li></li>
       <li></li>
@@ -46,17 +51,17 @@
 
     <!-- title -->
     <div class= Team-SubTitle>
-          <h1 class="animate-charcter"> Team </h1>
+          <h1 class="animate-charcter" id="click" onclick="myFunction1()"> TEAM </h1>
     </div>
 
     <!-- Notch decoration, asset from Adobe XD-->
     <div class="Notch">
-        <img src= "/Assets/Triangle.png"></img>
+        <img src= "Triangle.png"></img>
     </div>
 
     <!-- Team Image 1 -->
     <div class= "Team-Image1">
-        <img class = "Image" src="/Assets/Team-Image1.jpg" alt="KZ">
+        <img class = "Image" src="Team-Image1.jpg" alt="KZ">
     </div>
 
     <!-- Body Description-->
@@ -69,7 +74,7 @@
 
      <!-- Team Image 2 -->
      <div class= "Team-Image2">
-        <img class = "Image" src="/Assets/Team-Image2.jpg" alt="PG">
+        <img class = "Image" src="Yuan Yee picture.jpg"  alt="YY">
     </div>
 
     <!-- Body Description-->
