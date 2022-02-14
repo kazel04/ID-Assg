@@ -225,18 +225,22 @@
 </div>
 
     <!-- Scripts to use Firebase services -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+    
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
 
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-analytics.js";
-        import { auth } from 'https://www.gstatic.com/firebasejs/9.6.6/firebase-auth.js'
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
+    <script>
         // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
+        var firebaseConfig = {
           apiKey: "AIzaSyBbuAhfBLE4jZ-NULe6zDPQc0Qsgbl0UFQ",
           authDomain: "firelife-d9660.firebaseapp.com",
           databaseURL: "https://firelife-d9660.firebaseio.com",
@@ -246,10 +250,9 @@
           appId: "1:398761817909:web:3f2e9df6234f2852f97e7c",
           measurementId: "G-Q73R5XLVDS"
         };
-      
         // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
       </script>
 
     </body>
