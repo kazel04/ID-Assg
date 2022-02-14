@@ -21,12 +21,15 @@
             x.style.display = "block";
           }
         }
+        function myFunction1() {
+      document.getElementById("click").innerHTML = "Contact Us";
+        }
         </script>
 
  <!-- Hamburger menu (mobile exclusive) (ref from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar) -->
         <!-- Change elements below and change css to hide (https://stackoverflow.com/questions/53701003/how-to-remove-the-hamburger-menu-icon-in-desktop-screen-but-only-needed-in-mobil)-->
         <div class="topnav">
-            <a href="/index.html" class="active">Psyche</a>
+            <a href="index.html" class="active">Psyche</a>
             <div id="myLinks">
               <a href="vision.html">VISION</a>
               <a href="team.html">TEAM</a>
@@ -43,7 +46,7 @@
     
   <!-- title background div-->
   <div class ="background">
-<ul class="circles">
+    <ul class="circles">
       <li></li>
       <li></li>
       <li></li>
@@ -59,13 +62,13 @@
 
 
     <!-- title -->
-    <div class= Contact-SubTitle>
-          <h1 class="animate-charcter"> CONTACT US </h1>
+    <div class= "Contact-SubTitle">
+          <h1 class="animate-charcter" id="click" onclick="myFunction1()"> CONTACT US </h1>
     </div>
 
     <!-- Notch decoration, asset from Adobe XD-->
     <div class="Notch">
-        <img src= "/Assets/Triangle.png"></img>
+        <img src= "Triangle.png"></img>
     </div>
 
     <!-- Body Description-->
