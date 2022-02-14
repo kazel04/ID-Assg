@@ -92,7 +92,7 @@ $(document).ready(function(){
     var original = 0;
 
     /* If perk has been redeemed*/
-    if(redeemed == 1){
+      if(redeemed == 1){
         $('.box-list li').on('click', '.box', function (){
             box = $(this);       
             if(box.hasClass('open'))
@@ -243,7 +243,7 @@ function signUp(){
             swal('Your Account Created','Your account was created successfully, you can log in now.',
             ).then((value) => {
                 setTimeout(function(){
-                    window.location.replace("../index.html");
+                    window.location.replace("/index.html");
                 }, 1000)
             });
         }).catch((error) => {
