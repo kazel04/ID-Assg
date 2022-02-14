@@ -1,0 +1,519 @@
+
+/* CSS for desktop-based */
+
+@media only screen and (min-width: 1025px) {
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color:black;
+      overflow: hidden;
+    
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: #9B85A7;
+      text-decoration: none;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 25px;
+      margin-right: 120px;
+      
+    }
+    
+    .topnav #myLinks {
+      display: block;
+      margin-top: 15px;
+    
+      
+    }
+    
+    /* Changing size and font of the 'Psyche' text logo */
+    .topnav a.active{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 45px;
+        color: #9B85A7;
+        font-style: regular;
+    }
+    
+    
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav a.icon {
+      display: none;
+    }
+}
+
+.item1 { float:left }
+.item2 { 
+    /* CSS for scrolling below */
+    float:right; 
+    width:30%; 
+    height:90%; 
+    overflow:auto;
+    border:1px solid #ff00ff;
+ }
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* button css for description */
+/* Contact Button Start*/
+.contact-btn {
+    position: absolute;
+    background-color: plum;
+    border-radius: 100px;
+    width: 200px;
+    height: 72px;
+    box-shadow: 0 5px 10px rgba(0, 0, 40, 0.03);
+    transition: all 0.4s cubic-bezier(0.3, 0, 0, 1.3);
+    overflow: hidden;
+    cursor: pointer;
+    top: 90%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .contact-btn .cta {
+    position: absolute;
+    color: #3b5998;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.25s ease-in-out;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .contact-btn .close {
+    position: absolute;
+    right: 38px;
+    top: 31px;
+    cursor: pointer;
+    color: #cfd2d9;
+    font-size: 20px;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.3, 0, 0, 1.3);
+    transform: rotate(-45deg);
+    transform-origin: center center;
+  }
+  .contact-btn .fake-input {
+    width: 80%;
+    padding-top: 15px;
+    transform: scale(0.7) translateX(10px) translateY(-10px);
+    transition: all 0.25s ease-in-out;
+    transform-origin: 0% 0%;
+    opacity: 0;
+    margin: 10px auto 0 auto;
+    background-color: #f3f6fb;
+    color: #b2b5bc;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    overflow: hidden;
+  }
+  .clicked {
+    width: 460px;
+    height: 470px;
+    border-radius: 50px;
+    cursor: auto;
+    overflow: visible;
+  }
+  .contact-btn.clicked .cta {
+    left: 40px;
+    top: 30px;
+    transform: translateX(0) translateY(0);
+    color: #cfd2d9;
+  }
+  .contact-btn.clicked .close {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  .contact-btn.clicked .fake-input {
+    transform: scale(1) translateX(0) translateY(0);
+    opacity: 1;
+    position: relative;
+    top: 50px;
+  }
+
+  /* CSS code for info tab */
+  
+  .info{
+      position: relative;
+      top: 2%;
+      font-size: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      color: whitesmoke;
+      background-color: darkgrey;
+      width: 300px;
+      height: 75px;
+      border-radius: 25px; 
+      padding: 2px;  
+  }
+  p {
+    /* Center horizontally*/
+    position: relative;
+    text-align: center;
+    top: 20%;
+  }
+  .title{
+      position: relative;
+      top: 7.5%;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  /* CSS for tab menu and its contents */
+  .container {
+    position: relative;
+    width: 75%;
+    margin: 3rem auto;
+    top: 8%;
+  }
+  
+  h2 {
+    position: relative;
+    color: #345F90;
+    font-size: 24px;
+    line-height: 1.25;
+    font-family: "Gotham Medium", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: 10%;
+  }
+  
+  .tab-slider--nav {
+    position: relative;
+    left: 20%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .tab-slider--tabs {
+      
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+    background: #fff;
+    height: 35px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    background: #345F90;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 250ms ease-in-out;
+    border-radius: 35px;
+  }
+  .tab-slider--tabs.slide:after {
+    left: 50%;
+  }
+  
+  .tab-slider--trigger {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    color: #345F90;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 250ms ease-in-out;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tab-slider--trigger.active {
+    color: #fff;
+  }
+  
+  .tab-slider--body {
+    position: relative;
+    top: 10%;
+    margin-bottom: 20px;
+    left: 5%;
+  }
+
+  .Feature1{
+    position: relative;
+    font-size: 16px;
+    top: 10%;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
+    border: 2px solid darkgreen;
+    padding: 10px;
+    left: 10%;
+    text-align: center;
+  }
+
+  .Feature2{
+    position: relative;
+    font-size: 16px;
+    top: 10%;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
+    border: 2px solid darkred;
+    padding: 10px;
+    left: 10%;
+    text-align: center;
+  }
+
+  .Feature3{
+    position: relative;
+    font-size: 16px;
+    top: 10%;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
+    border: 2px solid darkorange;
+    padding: 10px;
+    left: 10%;
+    text-align: center;
+  }
+
+  .form-title{
+      font-size: 30px;
+      text-align: center;
+      
+  }
+
+  /* CSS for loot boxes (referenced from codepen)*/
+  @keyframes float {
+    0% {
+      top: 0;
+    }
+    30% {
+      top: -30px;
+    }
+    90% {
+      top: 5px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  @keyframes shadow-aperture {
+    0% {
+      opacity: 0.35;
+      transform: translate(-50%, -50%) scale(1, 0.2);
+    }
+    30% {
+      opacity: 0.15;
+      transform: translate(-50%, -50%) scale(0.8, 0.15);
+    }
+    90% {
+      opacity: 0.4;
+      transform: translate(-50%, -50%) scale(1.1, 0.25);
+    }
+    100% {
+      opacity: 0.35;
+      transform: translate(-50%, -50%) scale(1, 0.2);
+    }
+  }
+  @keyframes inflate {
+    0% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(1080deg);
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  #stage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  h1 {
+    flex: 1 0 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 6rem;
+    margin-bottom: 0;
+  }
+  
+  .content-width {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  
+  .box-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    z-index: 1;
+  }
+
+  .box-list li {
+    padding: 1em;
+    position: relative;
+    flex: 0 0 20%;
+    height: 200px;
+  }
+
+  .box-list li .box {
+    background-color: transparent;
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    animation-name: float;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .box-list li .box:hover, .box-list li .box:focus {
+    animation: inflate 0.5s 1, float 2s infinite;
+    cursor: pointer;
+    outline: 0;
+  }
+  .box-list li .box.click {
+    animation: spin 0.5s 1, inflate 0.5s 1, float 2s infinite;
+    -webkit-filter: blur(2px);
+  }
+  .box-list li .box.open {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjM1OS43MDdweCIgaGVpZ2h0PSIzNDQuNDM5cHgiIHZpZXdCb3g9IjAgMCAzNTkuNzA3IDM0NC40MzkiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDM1OS43MDcgMzQ0LjQzOSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGcgaWQ9IkxheWVyXzIiPjwvZz48ZyBpZD0iTGF5ZXJfMl9jb3B5Ij48cGF0aCBmaWxsPSIjNTk0QTQyIiBkPSJNMzU5LjcwNyw0OS44NzZjMC0zLjg2Ni0zLjEzMi03LTYuOTk4LTdoLTAuMDA1Yy0xLjY4OCwwLTMuMjM2LDAuNTk4LTQuNDQ1LDEuNTkzbC01Ni4zMjcsNDUuNTg2TDE4MC45NzUsNjAuOTUyYy0wLjEyOS0wLjE4My0wLjI2NC0wLjM2MS0wLjQxMS0wLjUzMkwxMzAuNjMyLDIuNDMzQzEyOS4yNTksMC44MzksMTI3LjMwNCwwLDEyNS4zMjMsMGMtMS4yNzQsMC0yLjU2LDAuMzQ4LTMuNzA3LDEuMDY1TDMuMjg4LDc1LjA1OGMtMS43NTEsMS4wOTUtMi45MywyLjkwOC0zLjIxOSw0Ljk1M2MtMC4yOSwyLjA0NSwwLjMzOCw0LjExNCwxLjcxNyw1LjY1M2w0OS40Myw1NS4xODljLTAuMTY3LDAuNTUtMC4yNTIsMS4xMjctMC4yMjQsMS43MThsNi41OTEsMTQxLjMyOGMwLjA5OCwyLjExLDEuNDgsMy45NDQsMy40ODIsNC42MTlsMTY1LjEyOCw1NS42NTJjMC41MzUsMC4xODEsMS4wODgsMC4yNjksMS42MzYsMC4yNjljMS4yNzUsMCwyLjUyNy0wLjQ3NywzLjQ5LTEuMzcxbDEwMy42MTYtOTYuMjk0YzEuMDQ0LTAuOTcsMS42MzctMi4zMywxLjYzNy0zLjc1NXYtMTM3LjNjMC0wLjg1OS0wLjIxNy0xLjY3Ny0wLjYtMi4zOTlsMjMuMDA4LTUwLjMzN0MzNTkuNDQ1LDUyLjA0NywzNTkuNzA3LDUwLjk5MiwzNTkuNzA3LDQ5Ljg3NnoiLz48Zz48cG9seWdvbiBmaWxsPSIjNzU0QzI5IiBwb2ludHM9IjMyNi4zMiwxMTQuODE0IDIzMS40OTEsMTk0LjU2NCAyMzEuNDkxLDMyOC45MTQgMzI2LjMyLDI0MC43ODUgIi8+PHBvbHlnb24gZmlsbD0iI0E5N0M1MCIgcG9pbnRzPSI2MS40OTUsMTQ3LjczMyA2Ny42NTksMjc5LjkyMiAyMjQuMTY5LDMzMi42NjkgMjI0LjE2OSwxOTUuNTk4IDE2Ny44MDQsMTc5LjAxMyAiLz48cG9seWdvbiBmaWxsPSIjQzQ5QTZDIiBwb2ludHM9IjE3Ni4wMDQsNzIuODU5IDY5LjM3LDE0Mi40MTYgMTc2LjAxLDE3My43OTQgMTc2LjAwNCwxNzMuNzkyICIvPjxwYXRoIGZpbGw9IiNBOTdDNTAiIGQ9Ik0xNzguODYsNzAuOTk2bC0yLjg1NiwxLjg2M3YxMDAuOTM0bDAuMDA2LDAuMDAybDQ3Ljk5MSwxNC4xMjFjLTAuMDE4LTAuNjg4LDAuMDU4LTEuMzg3LDAuMjU4LTIuMDc2bDE0Ljk0Mi01MS40OTVjMC4zOTgtMS4zNzMsMS4yMDgtMi41OTEsMi4zMTktMy40OTFsNDAuNTIxLTMyLjc5NUwxNzguODYsNzAuOTk2eiIvPjwvZz48cG9seWdvbiBmaWxsPSIjOUI4NTc5IiBwb2ludHM9IjEyNC42MDgsMTYyLjQ4NyAxNjQuMDUsMTc0LjA5MSAxNjQuMDUsMjM3LjUzIDE1Mi42NSwyMjguNzQyIDE0MC4yMDIsMjMwLjkzOCAxMzMuMTIyLDIyNC44MzUgMTI0LjgyNCwyMjYuODM2ICIvPjxwb2x5Z29uIGZpbGw9IiM4QjVFM0MiIHBvaW50cz0iMjMwLjk4MSwxODcuNzkxIDMyNi4zMTIsMTA3LjYyIDM1Mi43MDQsNDkuODc2IDI0NS45MjQsMTM2LjI5NSAiLz48cG9seWdvbiBmaWxsPSIjQzQ5QTZDIiBwb2ludHM9IjcsODAuOTkzIDYwLjAwMSwxNDAuMTcgMTc1LjI2LDY0Ljk4NyAxMjUuMzI3LDcgIi8+PC9nPjwvc3ZnPg==);
+  }
+  .box-list li .box.closed {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI4NS41ODZweCIgaGVpZ2h0PSIyODQuODU0cHgiIHZpZXdCb3g9IjAgMCAyODUuNTg2IDI4NC44NTQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI4NS41ODYgMjg0Ljg1NCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGcgaWQ9IkxheWVyXzIiPjxwYXRoIGZpbGw9IiM1OTRBNDIiIGQ9Ik0yODEuNzYxLDQxLjE3NUwxMjUuNDIsMC4xNjhjLTEuNC0wLjM2OC0yLjg4OS0wLjEyNS00LjEwMSwwLjY2NUwyLjMyNiw3OC40NTNjLTEuNTIyLDAuOTkzLTIuNDA1LDIuNzE3LTIuMzIsNC41MzJsNi41OSwxNDEuMzI4YzAuMDk4LDIuMTEsMS40ODEsMy45NDQsMy40ODMsNC42MTlsMTY1LjEyOCw1NS42NTJjMC41MzUsMC4xODEsMS4wODgsMC4yNjksMS42MzYsMC4yNjljMS4yNzUsMCwyLjUyNy0wLjQ3NywzLjQ5LTEuMzcxbDEwMy42MTYtOTYuMjk0YzEuMDQ0LTAuOTcsMS42MzctMi4zMywxLjYzNy0zLjc1NXYtMTM3LjNDMjg1LjU4Niw0My44MDMsMjg0LjAxNSw0MS43NjYsMjgxLjc2MSw0MS4xNzV6Ii8+PGc+PHBvbHlnb24gZmlsbD0iI0E5N0M1MCIgcG9pbnRzPSIxMC41MDksODguMTQ3IDE2LjY3MywyMjAuMzM3IDE3My4xODMsMjczLjA4NCAxNzMuMTgzLDEzNi4wMTMgMTE2LjgxNywxMTkuNDI4ICIvPjxwb2x5Z29uIGZpbGw9IiM3NTRDMjkiIHBvaW50cz0iMjc1LjMzNCw1NS4yMjkgMTgwLjUwNSwxMzQuOTc5IDE4MC41MDUsMjY5LjMyOCAyNzUuMzM0LDE4MS4xOTkgIi8+PHBvbHlnb24gZmlsbD0iI0M0OUE2QyIgcG9pbnRzPSIxNzUuOTkxLDEyOS4yMDYgMjQyLjYwNSw3My4xODUgMjcxLjMyMSw0OS4wMzUgMTI1LjAxOCwxMC42NjEgMTUuNjI0LDgyLjAxOSAiLz48L2c+PHBvbHlnb24gZmlsbD0iI0MyQjU5QiIgcG9pbnRzPSI3My42MjIsMTAyLjkwMSAxODMuNDM1LDE1LjM4NSAyMjMuOTEzLDI2LjAwMiAxMTMuMDYzLDExNC41MDYgIi8+PHBvbHlnb24gZmlsbD0iIzlCODU3OSIgcG9pbnRzPSI3My42MjIsMTAyLjkwMSAxMTMuMDYzLDExNC41MDYgMTEzLjA2MywxNzcuOTQ0IDEwMS42NjQsMTY5LjE1NiA4OS4yMTYsMTcxLjM1MyA4Mi4xMzYsMTY1LjI1IDczLjgzOCwxNjcuMjUxICIvPjwvZz48ZyBpZD0iTGF5ZXJfMl9jb3B5Ij48L2c+PC9zdmc+);
+  }
+  .box-list li .loot-shadow {
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, -20%) scale(1, 0.2);
+    border-radius: 50%;
+    width: calc(100% - 3em);
+    height: 100px;
+    background: black;
+    opacity: 0.35;
+    -webkit-filter: blur(10px);
+    animation-name: shadow-aperture;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+ 
+ 
+
+
+
