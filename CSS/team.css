@@ -53,7 +53,7 @@
       position: absolute;
       right: 0%;
       color: #5A4382;
-      top: 10%;
+      top: 5%;
       text-align: center;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 60px;
@@ -121,9 +121,6 @@
 
  }
 
-/* CSS for desktop-based */
-
-@media only screen and (min-width: 1025px) {
   
 /* CSS for desktop-based */
 
@@ -182,13 +179,13 @@ body{
   .background{
       top: 10%;
       right: 0%;
-      width:100%;
+      width:110%;
       height: 20%;
       background-color: white;
       z-index: -1;
   }
   .Team-SubTitle{
-      top:8%;
+      top:5%;
       right: 43%;
       position: absolute;
       text-align: center;
@@ -213,17 +210,17 @@ body{
     border-radius: 50%; 
     }  
 
-  .Team-Image1{
+    .Team-Image1{
       position: absolute;
       bottom: 65%;
-      right: 64%;
+      right: 68%;
       height: 40px;
       width: auto;
   }
 
   .Team-ImageText1{
       top: 70%;
-      right: 61%;
+      right: 65%;
       position: absolute;
       text-align: center;
       font-size: 50px;
@@ -235,16 +232,16 @@ body{
   }
 
   .Team-Image2{
-      position: absolute;
-      bottom: 57.5%;
-      right: 23%;
-      height: 100px;
-      width: auto;
-  }
+    position: absolute;
+    bottom: 57.5%;
+    right: 18%;
+    height: 100px;
+    width: auto;
+}
 
   .Team-ImageText2{
-      top: 75%;
-      right: 27%;
+      top: 71%;
+      right: 22%;
       position: absolute;
       text-align: center;
       font-size: 50px;
@@ -255,8 +252,8 @@ body{
   }
   .lottie{
     position:absolute;
-    top:80%;
-    right:45%;
+    top:40%;
+    right:41%;
 
   }}
 
@@ -401,6 +398,6 @@ body{
   }
 
 }
-}
+
 
 /*above animation is referenced from https://codepen.io/mohaiman/pen/MQqMyo */
