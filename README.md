@@ -26,6 +26,9 @@ https://developer.mozilla.org/en-US/docs/Web/HTML, HTML will be used to construc
 
 https://www.keycdn.com/support/ajax-programming, AJAX will be used to help simplify the making of the website
 
+Firebase API:
+https://firebase.google.com/docs/storage/web/start#web-version-8, Firebase storage used, with database link for each image used as the source
+https://firebase.google.com/docs/auth/web/start, Firebase authentication used, with auth sign up and checks.
 
 Features in our website
 
