@@ -93,7 +93,7 @@
       font-size: 50px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color: #5A4382;
-      text-emphasis-style: bold;
+      font-weight: bold;
       
 
   }
@@ -114,7 +114,7 @@
       font-size: 50px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color: #5A4382;
-      text-emphasis-style: bold;
+      font-weight: bold;
       
 
   }
@@ -260,7 +260,7 @@ body{
       font-size: 50px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color: #5A4382;
-      text-emphasis-style: bold;
+      font-weight: bold;
       
 
   }
@@ -281,7 +281,7 @@ body{
       font-size: 50px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color: #5A4382;
-      text-emphasis-style: bold;
+      font-weight: bold;
       
   }
   .lottie{
