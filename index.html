@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Main page</title>
 <link rel="stylesheet" href="CSS/mainpage.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 <script>
-  var y=0
     function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -17,9 +13,6 @@
         x.style.display = "block";  
         }
     }
-    function scrolling(){
-      location.replace("vision-mainpage.html")
-    };
     </script>
 
 </head>
@@ -48,8 +41,8 @@
               <i class="fa fa-bars"></i>
             </a>
     </div>
+
     <div class = "click-func" onclick= "clickFunction()">
-        </div>
         <!-- title -->
         <div class="title">
             <h1> Metaverse </h1>
@@ -57,13 +50,32 @@
             <h1>Mental Health</h1>
           
         </div>
-        
+
         <!-- Animated Title for desktop-->
         <canvas id="scene"></canvas>
             <input id="copy" type="text" value="AI x METAVERSE" />
 
+              <!-- Scroll image -->
+       <div class = "ScrollImg">
+        <img src="Assets/Click-Logo.png"></img>
+    </div>
 
-            <script>
+        <!-- Scroll text -->
+        <div>
+            <p class="ScrollText"> CLICK FOR MORE </p>
+        </div>
+
+        <!-- Scroll image for desktop -->
+        <div class = "ScrollImgDesktop">
+            <img class= dsktopIMG src="Assets/Click-Logo.png"></img>
+        </div>
+
+        <!-- Scroll text for desktop -->
+        <div>
+            <p class="ScrollTextDesktop"> CLICK FOR MORE </p>
+        </div>
+
+            <script type="text/javascript">
                 (function(d, m){
                     var kommunicateSettings = 
                         {"appId":"f8e121d7b511f53494c612a9ffff4999","popupWidget":true,"automaticChatOpenOnNavigation":true};
@@ -74,16 +86,22 @@
                 })(document, window.kommunicate || {});
             /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
             </script>
-                <script
-                src='https://code.jquery.com/jquery-2.2.4.min.js'>
-                    // JS code for animation edited from open source code provided by Marco Dell'Anna
-                </script>
-                
-                <script  
-                src="./Javascript/script.js">
-                </script>
 
     </body>
+
+    
+    <script 
+    src='https://code.jquery.com/jquery-2.2.4.min.js'>
+        // JS code for animation edited from open source code provided by Marco Dell'Anna
+    </script>
+    
+    <script  
+    src="./Javascript/script.js">
+    </script>
+ 
+    
+
+
 
 
 </html>
