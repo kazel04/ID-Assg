@@ -58,7 +58,7 @@
       position: absolute;
       right: 0%;
       color: #5A4382;
-      top: 10%;
+      top: 40%;
       text-align: center;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 60px;
@@ -69,7 +69,7 @@
 
     .Notch{
       position: absolute;
-      top: 24%;
+      top: 54%;
       right: 45%;
       height: 100px;
       width: auto;
@@ -77,13 +77,13 @@
   }
 
   .Partners-SubText{
-      top: 30%;
+      top: 60%;
       right: 3%;
       position: absolute;
       text-align: center;
       font-size: 30px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      color: white;
+      color: #9B85A7;
 
   }
 
@@ -99,7 +99,7 @@
 
   .Partner-Image1{
       position: absolute;
-      bottom: 25%;
+      bottom: -5%;
       right: 60%;
       height: 100px;
       width: auto;
@@ -108,7 +108,7 @@
 
   .Partner-Image2{
       position: absolute;
-      bottom: 13%;
+      bottom: -17%;
       right: 35%;
       height: 100px;
       width: auto;
@@ -116,10 +116,17 @@
 
   .Partner-Image3{
       position: absolute;
-      bottom: 24%;
+      bottom: -6%;
       right: 13%;
       height: 100px;
       width: auto;
+  }
+  .lottie{
+    position: absolute;
+    bottom: -20%;
+    right: 40%;
+    height: 100px;
+    width: auto;
   }
 
  }
@@ -188,7 +195,7 @@ body{
       z-index: -1;
   }
   .Partners-SubTitle{
-      top: 5%;
+      top: 10%;
       right: 33%;
       position: absolute;
       text-align: center;
@@ -228,27 +235,34 @@ body{
     border-radius: 50%; 
     }  
 
+  .Partner-Image1{
+      position: absolute;
+      bottom: 15%;
+      right: 42%;
+      height: 40px;
+      width: auto;
+  }
 
   .Partner-Image2{
       position: absolute;
       bottom: 8%;
-      right: 72%;
+      right: 70%;
       height: 100px;
       width: auto;
   }
 
   .Partner-Image3{
       position: absolute;
-      bottom: 10%;
-      right: 20%;
+      bottom: 8%;
+      right: 15%;
       height: 100px;
       width: auto;
   }
 }
 .lottie{
   position: absolute;
-  bottom: 20%;
-  right: 42%;
+  bottom: -5%;
+  right: 40%;
   height: 100px;
   width: auto;
 }
