@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8"/>
-    <title>order</title>
 <link rel="stylesheet" href="CSS/order.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -51,17 +48,17 @@
             <div class="slideshow-container">
             
             <div class="mySlides">
-              <img src="https://firebasestorage.googleapis.com/v0/b/firelife-d9660.appspot.com/o/Teaser1.png?alt=media&token=fcb2fc8b-25e1-4c3f-b080-4aa376fdf944" style="width:118.3%" alt="picture">
+              <img src="https://firebasestorage.googleapis.com/v0/b/firelife-d9660.appspot.com/o/Teaser1.png?alt=media&token=fcb2fc8b-25e1-4c3f-b080-4aa376fdf944" style="width:118.3%">
              
             </div>
             
             <div class="mySlides">
-              <img src="https://firebasestorage.googleapis.com/v0/b/firelife-d9660.appspot.com/o/Teaser2.png?alt=media&token=9a870bab-e137-4b9f-bd50-34e279e1ee79" style="width:118.3%" alt="picture">
+              <img src="https://firebasestorage.googleapis.com/v0/b/firelife-d9660.appspot.com/o/Teaser2.png?alt=media&token=9a870bab-e137-4b9f-bd50-34e279e1ee79" style="width:118.3%">
          
             </div>
             
             <div class="mySlides">
-              <img src="https://firebasestorage.googleapis.com/v0/b/firelife-d9660.appspot.com/o/Teaser3.png?alt=media&token=02a37752-8d7b-4196-a44d-1fafdbeda3ae" style="width:118.3%" alt="picture">
+              <img src="https://firebasestorage.googleapis.com/v0/b/firelife-d9660.appspot.com/o/Teaser3.png?alt=media&token=02a37752-8d7b-4196-a44d-1fafdbeda3ae" style="width:118.3%">
         
             </div>
             <a class="next" style = "color: white" onclick="plusSlides(1)">&#10095;</a>
@@ -185,28 +182,28 @@
 
                         <!-- Actual creation of account using firebase, referenced from Firebase docs and Boris Karapiner: https://medium.com/@bariskarapinar/firebase-authentication-web-app-javascript-3165ebc92b68-->
                         <div class="col-lg-10 col-md-10 p-lg-5 p-md-5 px-3 py-4">
-                            <div id="signUpForm2" >
+                            <div id="signUpForm" >
                                 <h2 class="form-title">Free Account Creation</h2>
                                 <h2 class = "form-title">(Organisation)</h2>
                                 <div class="form-group">
-                                    <label for="userFullName2" style="color:white;">Name<span class="text-danger ml-1">*</span></label>
-                                    <input type="text" class="form-control" id="userFullName2" onblur="checkUserFullName()" placeholder="name">
-                                    <small id="userFullNameError2" class="form-text text-danger">This Field must be filled.</small>
+                                    <label for="userFullName" style="color:white;">Name<span class="text-danger ml-1">*</span></label>
+                                    <input type="text" class="form-control" id="userFullName" onblur="checkUserFullName()" placeholder="name">
+                                    <small id="userFullNameError" class="form-text text-danger">This Field must be filled.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="userSurname2" style="color:white;">Surname<span class="text-danger ml-1">*</span></label>
-                                    <input type="text" class="form-control" id="userSurname2" onblur="checkUserSurname()" placeholder="surname">
-                                    <small id="userSurnameError2" class="form-text text-danger">This Field must be filled.</small>
+                                    <label for="userSurname" style="color:white;">Surname<span class="text-danger ml-1">*</span></label>
+                                    <input type="text" class="form-control" id="userSurname" onblur="checkUserSurname()" placeholder="surname">
+                                    <small id="userSurnameError" class="form-text text-danger">This Field must be filled.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="userEmail2" style="color:white;">Email adress<span class="text-danger ml-1">*</span></label>
-                                    <input type="email" class="form-control" id="userEmail2" onblur="checkUserEmail()" placeholder="mail@mail.com">
-                                    <small id="userEmailError2" class="form-text text-danger">Please check your email address.</small>
+                                    <label for="userEmail" style="color:white;">Email adress<span class="text-danger ml-1">*</span></label>
+                                    <input type="email" class="form-control" id="userEmail" onblur="checkUserEmail()" placeholder="mail@mail.com">
+                                    <small id="userEmailError" class="form-text text-danger">Please check your email address.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="userPassword2" style="color:white;">Password<span class="text-danger ml-1">*</span></label>
-                                    <input type="password" class="form-control" id="userPassword2" onblur="checkUserPassword()" placeholder="**********">
-                                    <small id="userPasswordError2" class="form-text text-danger">Your password must be uppercase, lowercase and more than 10 characters.</small>
+                                    <label for="userPassword" style="color:white;">Password<span class="text-danger ml-1">*</span></label>
+                                    <input type="password" class="form-control" id="userPassword" onblur="checkUserPassword()" placeholder="**********">
+                                    <small id="userPasswordError" class="form-text text-danger">Your password must be uppercase, lowercase and more than 10 characters.</small>
                                 </div>
                                 
                                 <button type="button" class="btn btn-outline-primary text-uppercase mb-3" onclick="signUp()">Sign Up</button>
@@ -246,8 +243,7 @@
     <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
     
     <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src="Javascript/order.js"></script>
+
     <script>
         // Your web app's Firebase configuration
 
@@ -268,6 +264,8 @@
 
     </body>
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="Javascript/order.js"></script>
 
     
 </html>
