@@ -53,7 +53,7 @@
         position: absolute;
         right: 0%;
         color: #5A4382;
-        top: 10%;
+        top: 35%;
         text-align: center;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 60px;
@@ -64,7 +64,7 @@
 
       .Notch{
         position: absolute;
-        top: 24%;
+        top: 43%;
         right: 45%;
         height: 100px;
         width: auto;
@@ -72,13 +72,13 @@
     }
 
     .Contact-SubText{
-        top: 28%;
+        top: 53%;
         right: 13%;
         position: absolute;
         text-align: center;
         font-size: 40px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: white;
+        color: #9B85A7;
 
     }
 
@@ -88,7 +88,7 @@
 
     .button-link1{
         position: absolute;
-        top: 40%;
+        top: 65%;
         right: 24%;
         color: #5A4382;
         background-color: white;
@@ -103,13 +103,13 @@
 
     
       .Contact-SubText2{
-        top: 58%;
+        top: 83%;
         right: 12%;
         position: absolute;
         text-align: center;
         font-size: 40px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: white;
+        color: #9B85A7;
 
     }
 
@@ -119,7 +119,7 @@
 
       .button-link2{
         position: absolute;
-        top: 75%;
+        top: 100%;
         right: 22%;
         color: #5A4382;
         background-color: white;
@@ -130,6 +130,12 @@
         border-color: skyblue;
         padding: 55px 92px;
           
+      }
+
+      .lottie{
+        top:110%;
+        right:40%;
+        position:absolute;
       }
 
     
@@ -196,14 +202,14 @@
       .background{
           top: 10%;
           right: 0%;
-          width:110%;
+          width:100%;
           height: 20%;
           background-color: white;
           z-index: -1;
       }
       .Contact-SubTitle{
-          top: 5%;
-          right: 33%;
+          top: 10%;
+          right: 34%;
           position: absolute;
           text-align: center;
           font-size: 50px;
@@ -285,7 +291,7 @@
       }
 
       .lottie{
-        top:60%;
+        top:80%;
         right:40%;
         position:absolute;
       }
