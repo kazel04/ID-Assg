@@ -4940,7 +4940,7 @@ img {
   background-color: #ff8200;
 }
 
-@keyframes orbit229 {
+@keyframes orbit229 { 
   20% {
     opacity: 1;
   }
