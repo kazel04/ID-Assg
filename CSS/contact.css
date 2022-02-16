@@ -202,14 +202,14 @@
       .background{
           top: 10%;
           right: 0%;
-          width:100%;
+          width:110%;
           height: 20%;
           background-color: white;
           z-index: -1;
       }
       .Contact-SubTitle{
-          top: 10%;
-          right: 34%;
+          top: 5%;
+          right: 33%;
           position: absolute;
           text-align: center;
           font-size: 50px;
@@ -291,7 +291,7 @@
       }
 
       .lottie{
-        top:80%;
+        top:60%;
         right:40%;
         position:absolute;
       }
