@@ -1,6 +1,11 @@
-Interactive Demo Website for AI Chatbot
+Interactive Demo Website for a Mental Health Chatbot Assistant
 
- This website will feature a chatbot that users can interact with, the users can use it to ask questions which the chat bot will answer. The website will not just feature the chat bot but that will also be buttons on the website for users to press. 
+This website was developed to gain the attention of youths who are looking to try out the mental health chatbot assistant through the usage of animations, demo images and interactive chatbots. The key goal of the website is to encourage youths to try out the chatbot themselves by signing up for a free trial account.
+
+The website uses Google Firebase APIs to sign up users and to store any assets used. 
+A Kommunicate(chatbot provider) API was also used tom provide a live demo of the chatbot, and the Kommunicate chatbot itself is connected to Google's Dialogflow API.
+
+Lottie animations are used to enhance the design of the website while a lucky box game which provides free perks to users allows for the gamification of the website for the enhancement of the user experience.
 
 Technologies used
 
@@ -34,11 +39,11 @@ Features in our website
 
 This website will feature a chatbot that users can interact with. There will be a chatbot icon at the bottom right of the home page. Upon clicking on it, the user will be greeted by a chatbot which the user can ask questions. The chatbot will then reply them.  There will also be buttons that the user can use to navigate through the website. 
 
-Feature 1.Chatbox for users to interact with
+Feature 1. Live chatbot for users to interact with a demo version of the mental health assistant
 
-Feature 2.Buttons to allow users to navigate through the website
+Feature 2. Lucky box game for users to gain free perks
 
-Feature 3.Multiple pages that will display different information
+Feature 3. Interactive animations and unique webpage designs that incorporate Lottie and particle animations
 
 
 CHECKPOINT(Week 17):
