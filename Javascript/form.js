@@ -1,3 +1,6 @@
+// jshint esversion: 6
+
+
 /////////////////////////////Variables//////////////////////////////
 
 const email = document.getElementById('email');
