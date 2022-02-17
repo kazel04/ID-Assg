@@ -1,8 +1,9 @@
-# Your Project's Name
+# Interactive Demo Website for a Mental Health Chatbot Assistant
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+This website was developed to gain the attention of youths who are looking to try out the mental health chatbot assistant through the usage of animations, demo images and interactive chatbots. 
 
-Essentially, this part is your sales pitch.
+The key goal of the website is to encourage youths as well as organisations to try out the chatbot themselves by signing up for a free trial account.
+A secondary purpose is to inform users about the purpose of the new social project, Psyche, as well as provide the means for users to send enquiries about the social project.
  
 ## Design Process
  
