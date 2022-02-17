@@ -73,6 +73,9 @@ Enquiry Form: https://codepen.io/webdvz/pen/gjLyRG
 
 Orb Particle Animation: https://codepen.io/natewiley/pen/GgONKy
 
+Subpages background: https://codepen.io/mohaiman/pen/MQqMyo
+
+Subpages Text Alternating Colors: https://alvarotrigo.com/blog/css-text-animations/
 
 
 # CHECKPOINT(Week 17):
