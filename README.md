@@ -1,85 +1,65 @@
-# REDO USING TEMPLATE!!!!!!!!!
+# Your Project's Name
 
-# Psyche Info Website
-Interactive Demo Website for a Mental Health Chatbot Assistant
+One or two paragraphs providing an overview of your project. Tell us about your project.
 
-This website was developed to gain the attention of youths who are looking to try out the mental health chatbot assistant through the usage of animations, demo images and interactive chatbots. The key goal of the website is to encourage youths as well as organisations to try out the chatbot themselves by signing up for a free trial account.
+Essentially, this part is your sales pitch.
+ 
+## Design Process
+ 
+Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-A secondary purpose is to inform users about the purpose of the new social project, Psyche, as well as provide the means for users to send enquiries about the social project.
+In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+- As a user type, I want to perform an action, so that I can achieve a goal.
 
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
+These files should themselves either be included as a pdf file in the project itself (in an separate directory)
+Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
-The website uses Google Firebase APIs to sign up users and to store any assets used. 
+## Features
 
-A Kommunicate(chatbot provider) API was also used tom provide a live demo of the chatbot, and the Kommunicate chatbot itself is connected to Google's Dialogflow API.
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+ 
+### Existing Features
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
 
-Lottie animations are used to enhance the design of the website while a lucky box game which provides free perks to individual users allows for the gamification of the website for the enhancement of the user experience.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
+### Features Left to Implement
+- Another feature idea
 
-# Features in our website
+## Technologies Used
 
-This website will feature a chatbot that users can interact with. There will be a chatbot icon at the bottom right of the home page. Upon clicking on it, the user will be greeted by a chatbot which the user can ask questions. The chatbot will then reply them.  There will also be buttons that the user can use to navigate through the website. 
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-Feature 1. Live chatbot for users to interact with a demo version of the mental health assistant
-
-Feature 2. Lucky box game for users to gain free perks
-
-Feature 3. Interactive animations and unique webpage designs that incorporate Lottie and particle animations
-
-
-# Technologies used
-The following technologies were used to construct the website 
-
-.API
-
-https://docs.kommunicate.io/docs/web-installation.html, API will be used to link the Chatbot to the website
-
-.Javascript
-
-https://www.javascript.com/, Javascript will be used to consruct the back end of the website 
-
-.CSS
-
-https://www.tutorialspoint.com/css/index.htm, CSS will be used to design the website 
-
-.HTML
-
-https://developer.mozilla.org/en-US/docs/Web/HTML, HTML will be used to construct the structure of the website
-
-.Ajax
-
-https://www.keycdn.com/support/ajax-programming, AJAX will be used to help simplify the making of the website
-
-Firebase API:
-https://firebase.google.com/docs/storage/web/start#web-version-8, Firebase storage used, with database link for each image used as the source
-
-https://firebase.google.com/docs/auth/web/start, Firebase authentication used, with auth sign up and checks.
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
 
 
-# Reference code:
+## Testing
 
-Main Page Text Animation: https://codepen.io/Mamboleoo/pen/obWGYr
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Chatbot API: https://docs.kommunicate.io/docs/web-installation.html + https://cloud.google.com/dialogflow/es/docs/quick/api#detect-intent-text-drest
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-Lucky Box Game: https://codepen.io/Gigabait/pen/jOEErjr
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-Tab Menu: https://codepen.io/derekjp/pen/pPqwXJ
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-Firebase API For Signups: https://medium.com/@bariskarapinar/firebase-authentication-web-app-javascript-3165ebc92b68
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-More Info Popup Button: https://codepen.io/kucznierzm/pen/KKaypgd
+## Credits
 
-Firebase Storage API: https://firebase.google.com/docs/storage/web/download-files
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-Enquiry Form: https://codepen.io/webdvz/pen/gjLyRG
+### Media
+- The photos used in this site were obtained from ...
 
-Orb Particle Animation: https://codepen.io/natewiley/pen/GgONKy
+### Acknowledgements
 
-Subpages background: https://codepen.io/mohaiman/pen/MQqMyo
-
-Subpages Text Alternating Colors: https://alvarotrigo.com/blog/css-text-animations/
-
-
-# CHECKPOINT(Week 17):
-Created order page with scrolling side menu and interactive features such as image carousel, pill menus and a loot box functionality
-Revamped sub-pages and currently finalising mainpage design
+- I received inspiration for this project from X
