@@ -1,3 +1,8 @@
+// jshint esversion: 8
+/*globals $:false */
+/*globals firebase:false */
+/*globals swal:false */
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -13,8 +18,8 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) {slideIndex = 1;}  
+  if (n < 1) {slideIndex = slides.length;}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
   }
@@ -88,7 +93,7 @@ $(document).ready(function(){
     var object = ["$5 off subscription","Free 1 month trial", "Free 30 days trial"];
     var box = "";
     var redeemed = 0;
-    var add = 1
+    var add = 1;
     var original = 0;
 
     /* If perk has been redeemed*/
@@ -97,11 +102,11 @@ $(document).ready(function(){
             box = $(this);       
             if(box.hasClass('open'))
                 {
-                    alert("Box has been opened!")
+                    alert("Box has been opened!");
                     return;
                 }
-        alert("Perk has been redeemed")
-        return
+        alert("Perk has been redeemed");
+        return;
             
         });
         }
@@ -111,10 +116,10 @@ $(document).ready(function(){
         $('.box-list li').on('click', '.box', function (){
             box = $(this);
             /* Random perk generator and notice, referenced from codepen: https://codepen.io/susier2016/pen/BKKywy*/
-            var perk = object[Math.floor(Math.random() * object.length)]
+            var perk = object[Math.floor(Math.random() * object.length)];
             if(box.hasClass('open'))
                 {
-                    alert("Box has been opened!")
+                    alert("Box has been opened!");
                     return;
                 }
             alert("You have won: " +  perk);
@@ -238,13 +243,13 @@ function signUp(){
                 userTw: "https://twitter.com/",
                 userGp: "https://plus.google.com/",
                 userBio: "User biography",
-            }
+            };
             firebaseRef.child(uid).set(userData);
             swal('Your Account Created','Your account was created successfully, you can log in now.',
             ).then((value) => {
                 setTimeout(function(){
                     window.location.replace("/index.html");
-                }, 1000)
+                }, 1000);
             });
         }).catch((error) => {
             // Handle Errors here.
@@ -254,7 +259,7 @@ function signUp(){
                 type: 'error',
                 title: 'Error',
                 text: "Error",
-            })
+            });
         });
     }
 }
@@ -313,7 +318,7 @@ function signIn(){
             }).then((value) => {
                 setTimeout(function(){
                     window.location.replace("./pages/profile.html");
-                }, 1000)
+                }, 1000);
             });
         }).catch((error) => {
             // Handle Errors here.
@@ -323,7 +328,10 @@ function signIn(){
                 type: 'error',
                 title: 'Error',
                 text: "Error",
-            })
+            });
         });
     }
 }
+
+/*exported userBio */
+/*exported errorCode */
