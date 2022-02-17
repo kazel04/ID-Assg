@@ -1,6 +1,8 @@
-// animation for mobile version, only if screen width < 600
+// jshint esversion: 6
+/*globals $:false */
+/*globals particlesJS */
 
-console.log(screen.width)
+console.log(screen.width);
 if (screen.width < 1366)
 {
 
@@ -31,7 +33,7 @@ if (screen.width < 1366)
       this.s = 2 + Math.random();
       this.w = $(window).width();
       this.h = $(window).height();
-      this.direction = this.random > .5 ? -1 : 1;
+      this.direction = this.random > 0.5 ? -1 : 1;
       this.radius = 1 + 3 * this.random;
       this.color = "#ff417d";
 
@@ -132,7 +134,7 @@ if (screen.width < 1366)
   }.bind(this),
   random_life);
 
-  function clear() {
+  var clear=function() {
     let grd = canvas.createRadialGradient(tela.width / 2, tela.height / 2, 0, tela.width / 2, tela.height / 2, tela.width);
     grd.addColorStop(0, "rgba(82,42,114,1)");
     grd.addColorStop(1, "rgba(26,14,4,0)");
@@ -140,15 +142,15 @@ if (screen.width < 1366)
     canvas.globalAlpha = 0.16;
     canvas.fillStyle = grd;
     canvas.fillRect(0, 0, tela.width, tela.height);
-  }
+  };
 
-  function blur(ctx, canvas, amt) {
+   var blur=function(ctx, canvas, amt) {
     // ctx.filter = `blur(${amt}px)`
     // ctx.drawImage(canvas, 0, 0)
     // ctx.filter = 'none'
-  }
+  };
 
-  function update() {
+  var update=function() {
     clear();
     particles = particles.filter(function (p) {
       return p.move();
@@ -157,10 +159,10 @@ if (screen.width < 1366)
       return mp.move();
     });
     requestAnimationFrame(update.bind(this));
-  }
+  };
 
 
-  function createCanvas(properties) {
+   var createCanvas=function(properties) {
     let canvas = document.createElement('canvas');
     canvas.width = properties.width;
     canvas.height = properties.height;
@@ -169,14 +171,14 @@ if (screen.width < 1366)
       canvas: canvas,
       context: context };
 
-  }
+  };
   update();
 }
 
 else{
   //Background from Johan's original open source "Stars with particles JS"
 
-  console.log("Check that this works")
+  console.log("Check that this works");
   particlesJS("particles-js", {
     "particles": {
       "number": {
@@ -300,11 +302,11 @@ else{
 var colors = ["#468966","#FFF0A5", "#FFB03B","#B64926", "#8E2800"];
 
 var copy = document.querySelector("#copy");
-console.log(copy)
+console.log(copy);
 var ww = canvas.width = window.innerWidth;
 var wh = canvas.height = window.innerHeight;
 
-function Particle(x,y){
+ var Particle=function(x,y){
   this.x =  Math.random()*ww;
   this.y =  Math.random()*wh;
   this.dest = {
@@ -319,7 +321,7 @@ function Particle(x,y){
   this.friction = Math.random()*0.05 + 0.94;
 
   this.color = colors[Math.floor(Math.random()*6)];
-}
+};
 
 Particle.prototype.render = function() {
 
@@ -350,26 +352,26 @@ Particle.prototype.render = function() {
     this.vy += this.accY;
   }
 
-}
+};
 
-function onMouseMove(e){
+ var onMouseMove=function(e){
   mouse.x = e.clientX;
   mouse.y = e.clientY;
-}
+};
 
-function onTouchMove(e){
+var onTouchMove=function(e){
   if(e.touches.length > 0 ){
     mouse.x = e.touches[0].clientX;
     mouse.y = e.touches[0].clientY;
   }
-}
+};
 
-function onTouchEnd(e){
+var onTouchEnd=function(e){
 mouse.x = -9999;
 mouse.y = -9999;
-}
+};
 
-function initScene(){
+var initScene=function(){
   ww = canvas.width = window.innerWidth;
   wh = canvas.height = window.innerHeight;
 
@@ -393,16 +395,16 @@ function initScene(){
   }
   amount = particles.length;
 
-}
+};
 
-function onMouseClick(){
+var onMouseClick=function(){
   radius++;
   if(radius ===5){
     radius = 0;
   }
-}
+};
 
-function render(a) {
+var render=function(a) {
   requestAnimationFrame(render);
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   for (var i = 0; i < amount; i++) {
@@ -425,8 +427,11 @@ requestAnimationFrame(render);
   // animate content
 
 
-function clickFunction() {
-        location.replace("Vision-MainPage.html")
+var clickFunction=function() {
+        location.replace("Vision-MainPage.html");
 };
 
+
+/*exported blur */
+/*exported clickFunction */
 
