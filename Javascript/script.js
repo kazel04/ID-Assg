@@ -427,9 +427,6 @@ requestAnimationFrame(render);
   // animate content
 
 
-var clickFunction=function() {
-        location.replace("Vision-MainPage.html");
-};
 
 
 /*exported blur */
