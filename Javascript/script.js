@@ -144,7 +144,7 @@ if (screen.width < 1366)
     canvas.fillRect(0, 0, tela.width, tela.height);
   };
 
-   var blur=function(ctx, canvas, amt) {
+   var blurr=function(ctx, canvas, amt) {
     // ctx.filter = `blur(${amt}px)`
     // ctx.drawImage(canvas, 0, 0)
     // ctx.filter = 'none'
@@ -429,6 +429,6 @@ requestAnimationFrame(render);
 
 
 
-/*exported blur */
+/*exported blurr */
 /*exported clickFunction */
 
