@@ -113,16 +113,34 @@ For any scenarios that have not been automated, test the user stories manually a
     1. Go to the Index Page
     2. Try to Click on different Sections (Was able to)
     3. From the above testing, the links are working
+    4. Try out if the links work based on different screens.
   
 4. Animations 
-    1. Go to the Main Page and ensure the animation is working
+    1. Go to the Main Page and ensure the animation is working based on interactions
     2. Go to the Subpages and ensure that the Text animation and the background animation is working
     3. Click on the Main Page and ensure the following pages animation are working
+    4. Try out if the animation works on different screens such as Yuan Yee's screen.
 
 5. Chatbot
-    1. Click on the Chatbots
+    1. Click on the Chatbot's widget on the main webpage
     2. When prompted by the Chatbot to type 'Yes, i agree', ensure that sentence must be typed (Working)
     3. Ensure the chatbot is able to have a conversation with the user and is working (Working)
+    4. Try out if the chatbot can work in different screen sizes
+
+
+6. Tab Menu (Order Page)
+    1. Click on the Tab Menu in the Order Page
+    2. Click on the 'Organisation' tab and ensure that the animation is working
+    3. Click on the 'Individual' tab and ensure that the animation is working
+    4. Ensure that the same animations work on Yuan Yee's screen (a different screen size/device)
+
+7. Lucky Boxes (Order Page)
+    1. Click on the Lucky Boxes in the Order Page, under the individual tab menu
+    2. Ensure that the animation and random generation of perks are working when clicked
+    3. Ensure that an opened box cannot be opened again
+    4. Ensure that the animations work in other devices such as Yuan Yee's device
+
+
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
