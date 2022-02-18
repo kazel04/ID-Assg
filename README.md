@@ -1,4 +1,6 @@
-# Interactive Demo Website for a Mental Health Chatbot Assistant
+#Psyche
+
+Interactive Demo Website for a Mental Health Chatbot Assistant
 
 This website was developed to gain the attention of youths who are looking to try out the mental health chatbot assistant through the usage of animations, demo images and interactive chatbots. 
 
