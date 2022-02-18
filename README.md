@@ -160,7 +160,14 @@ If this section grows too long, you may want to split it off into a separate fil
 - Form page icons are from Material+Icons
 
 ### Media
-- Lottie Animations for 
+- Lottie Animations for Vision Subpage: https://lottiefiles.com/50724-chatbot, https://lottiefiles.com/94994-loading-car
+
+- Lottie Animations for Team Subpage: https://lottiefiles.com/72259-team
+
+- Lottie Animations for Partners Subpage: https://lottiefiles.com/73195-business-partnership-contract-handshake
+
+- Lottie Animations for ContactUs Subpage: https://lottiefiles.com/70229-contact-us
+- 
 - The assets used such as the heart notch and triangles were created from Adobe XD.
 
 ### Acknowledgements
