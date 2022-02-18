@@ -184,7 +184,7 @@ Interesting bug found: Index.html formatting is affected when Github.io pages is
 - Lottie Animations for Partners Subpage: https://lottiefiles.com/73195-business-partnership-contract-handshake
 
 - Lottie Animations for ContactUs Subpage: https://lottiefiles.com/70229-contact-us
-- 
+
 - The assets used such as the heart notch and triangles were created from Adobe XD.
 
 ### Acknowledgements
