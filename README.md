@@ -187,6 +187,11 @@ Interesting bug found: Index.html formatting is affected when Github.io pages is
 
 - The assets used such as the heart notch and triangles were created from Adobe XD.
 
+### Contributon
+- En Yang: Main and Order Page aswell as the API, chatbot and the Javascript
+
+- Yuan Yee: Subpages
+
 ### Acknowledgements
 
 - I received inspiration for the Order page from the Tesla ordering webpage: https://www.tesla.com/model3/design
