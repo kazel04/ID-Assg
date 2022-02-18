@@ -7,10 +7,29 @@ A secondary purpose is to inform users about the purpose of the new social proje
  
 ## Design Process
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The website is catering to users who want to know more about the social project, most likely mental health professionals, journalists and youths.
+These users would want to understand more about the project and learn about the vision and purpose of the project.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+Hence, the website's content is designed to meet the needs and expectations of these different groups of users and displays the purpose of the social project through non-text means.
+
+For example, smooth and futuristic animations such as circular particle movements and bright primary colours place emphasis on the future-oriented aspect of the project.
+Meanwhile, the homepage utilises a mixture of two animations edited from open source designs in order to convey the image of candlelights among a bed of stars.
+These designs have a subliminal message of hope, futurism and human warmth.
+
+The key value that the website is providing to users is an interactive and non-conventional explanation on what the Psyche social project is through the use of aesthetic features and short summaries.
+These short summaries are included in the mainpage section of the website which links to additional webpages which contain more detailed information about specific aspects of the project. 
+These aspects include the vision, team, current work and contact information.
+
+To facilitate requests for more information from users, the contact page also links out to a seperate form for users to send their enquiries to the project organisers.
+
+A few user stories are included here:
+- As a student interested in mental health, I want to look through the website to find out what the social project is working on, so that I can further understand what the social project is contributing to Singapore's mental healthcare system.
+- As a journalist covering new technologies, I want to understand the new technologies that the project is developing so that I can understand the technologies used for mental healthcare today which would help with my reporting and articles.
+- As a student who is looking into volunteering opportunities, I want to look through the website's vision page to understand whether the project's goals align with mine, and find out how I can contact the organisation for volunteering.
+- As a student who is interested in trying out this service, I can try out a mini version on the main webpage and create a free trial account with random perks on the Order Page to get access to the full version and be updated on future developments
+- As a school teacher or counsellor who is interested in allowing my students to try out this service,I can sign up for a free Organisation trial account on the Order page.
+
+Wireframe for the project is in this repository as Assg2_wireframe.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
@@ -25,31 +44,52 @@ In this section, you should go over the different parts of your project, and des
 - Lucky Boxes- allows users to click on lucky boxes to earn prizes
 - Signup Form- allows users to Sign up using a form to become a member 
 - Enquiry Form- allows users to fill up an enquiry form to ask questions
+- Interactive particle text - Allows users to interact with the particle animation and get an idea of our core technologies used as well as future-oriented work.
+- Click-To-Scroll - Provides an unorthodox way for users to scroll through the sections of the mainpage, making the website more memorable
+- Responsive Navigation Menu - Allows users to navigate around the website
+- Short Summaries - Provides users with a simple summary of the different aspects of our work and an option to learn more
+- Main Content Pages - Provides more information on the different areas of our work
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Interactive demo with a virtual avatar
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-    
-- [HTML](https://www.computerhope.com/jargon/h/html.htm)
-    - The project uses **HTML** to write the structure of the website.
-    
-- [CSS](https://www.tutorialspoint.com/css/index.htm)
-    - The project uses **CSS** to style the website.
-    
-- [JavaScript](https://www.javascript.com/)
-    - The project uses **JavaScript** to program the the back end of the website. 
 
-- [API](https://www.w3schools.com/js/js_api_web_storage.asp)
-    - The project uses **API** to store data.
+.API
 
+https://docs.kommunicate.io/docs/web-installation.html, API will be used to link the Chatbot and for Firebase storage and Firebase authentication to the website
+
+.Javascript
+
+https://www.javascript.com/, Javascript will be used to consruct the back end of the website 
+
+.CSS
+
+https://www.tutorialspoint.com/css/index.htm, CSS will be used to design the website 
+
+.HTML
+
+https://developer.mozilla.org/en-US/docs/Web/HTML, HTML will be used to construct the structure of the website
+
+.Ajax
+
+https://www.keycdn.com/support/ajax-programming, AJAX will be used to help simplify the making of the website
+
+Firebase API:
+https://firebase.google.com/docs/storage/web/start#web-version-8, Firebase storage used, with database link for each image used as the source
+
+https://firebase.google.com/docs/auth/web/start, Firebase authentication used, with auth sign up and checks.
+
+Kommunicate API:
+https://docs.kommunicate.io/docs/web-installation.html, Kommunicate API used to link google dialogflow chatbot demo to the website
+
+Google Dialogflow API:
+https://cloud.google.com/dialogflow/es/docs/reference/rest/v2-overview, Dialogflow used to create chatbot and linked to the Kommunicate API within the Kommunicate interface
 
 ## Testing
 
@@ -113,17 +153,18 @@ If this section grows too long, you may want to split it off into a separate fil
 
 -Subpages background: https://codepen.io/mohaiman/pen/MQqMyo
 
--Subpages Text Alternating Colors: https://codepen.io/alvarotrigo/pen/PoKMyNO
+-Subpages Text Alternating Colors: https://alvarotrigo.com/blog/css-text-animations/
+
+- The text and images are all from myself (except for form page icons)
+- Animations and form are improved upon and modified from open source code from Codepen
+- Form page icons are from Material+Icons
 
 ### Media
-- Lottie Animations for Vision Subpage: https://lottiefiles.com/50724-chatbot, https://lottiefiles.com/94994-loading-car
-
-- Lottie Animations for Team Subpage: https://lottiefiles.com/72259-team
-
-- Lottie Animations for Partners Subpage: https://lottiefiles.com/73195-business-partnership-contract-handshake
-
-- Lottie Animations for ContactUs Subpage: https://lottiefiles.com/70229-contact-us
+- Lottie Animations for 
+- The assets used such as the heart notch and triangles were created from Adobe XD.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for the Order page from the Tesla ordering webpage: https://www.tesla.com/model3/design
+- This website references open source code from multiple source, and all open source are modified and improved upon.
+Some modifications and improvements made would be the fusion of multiple pieces of code, altering the colours and rotation of the animations, expanding or reducing the size of certain designs and many more other edits.
