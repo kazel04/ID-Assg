@@ -21,7 +21,6 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
 - Chatbot - allows users to interact with a chatbot to find out more about mental health 
 - Lucky Boxes- allows users to click on lucky boxes to earn prizes
 - Signup Form- allows users to Sign up using a form to become a member 
@@ -94,10 +93,30 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+-Main Page Text Animation: https://codepen.io/Mamboleoo/pen/obWGYr
+
+-Chatbot API: https://docs.kommunicate.io/docs/web-installation.html + https://cloud.google.com/dialogflow/es/docs/quick/api#detect-intent-text-drest
+
+-Lucky Box Game: https://codepen.io/Gigabait/pen/jOEErjr
+
+-Tab Menu: https://codepen.io/derekjp/pen/pPqwXJ
+
+-Firebase API For Signups: https://medium.com/@bariskarapinar/firebase-authentication-web-app-javascript-3165ebc92b68
+
+-More Info Popup Button: https://codepen.io/kucznierzm/pen/KKaypgd
+
+-Firebase Storage API: https://firebase.google.com/docs/storage/web/download-files
+
+-Enquiry Form: https://codepen.io/webdvz/pen/gjLyRG
+
+-Orb Particle Animation: https://codepen.io/natewiley/pen/GgONKy
+
+-Subpages background: https://codepen.io/mohaiman/pen/MQqMyo
+
+-Subpages Text Alternating Colors: https://alvarotrigo.com/blog/css-text-animations/
 
 ### Media
-- The photos used in this site were obtained from ...
+- Lottie Animations for 
 
 ### Acknowledgements
 
