@@ -2,6 +2,8 @@
 
 Interactive Demo Website for a Mental Health Chatbot Assistant
 
+Github.io page: https://kazel04.github.io/ID_Psyche_website/ (Bug found where index.html works when downloaded but not in Github.io page)
+
 This website was developed to gain the attention of youths who are looking to try out the mental health chatbot assistant through the usage of animations, demo images and interactive chatbots. 
 
 The key goal of the website is to encourage youths as well as organisations to try out the chatbot themselves by signing up for a free trial account.
@@ -143,12 +145,7 @@ For any scenarios that have not been automated, test the user stories manually a
     4. Ensure that the animations work in other devices such as Yuan Yee's device
 
 
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Interesting bug found: Index.html formatting is affected when Github.io pages is used, but is perfectly working when repository is downloaded and run.
 
 ## Credits
 
