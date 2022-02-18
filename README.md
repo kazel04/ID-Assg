@@ -22,7 +22,10 @@ In this section, you should go over the different parts of your project, and des
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Chatbot - allows users to interact with a chatbot to find out more about mental health 
+- Lucky Boxes- allows users to click on lucky boxes to earn prizes
+- Signup Form- allows users to Sign up using a form to become a member 
+- Enquiry Form- allows users to fill up an enquiry form to ask questions
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
@@ -35,6 +38,18 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+    
+- [HTML](https://www.computerhope.com/jargon/h/html.htm)
+    - The project uses **HTML** to write the structure of the website.
+    
+- [CSS](https://www.tutorialspoint.com/css/index.htm)
+    - The project uses **CSS** to style the website.
+    
+- [JavaScript](https://www.javascript.com/)
+    - The project uses **JavaScript** to program the the back end of the website. 
+
+- [API](https://www.w3schools.com/js/js_api_web_storage.asp)
+    - The project uses **API** to store data.
 
 
 ## Testing
@@ -46,6 +61,29 @@ For any scenarios that have not been automated, test the user stories manually a
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
+  
+2. Signup form:
+    1. Go to Signup form
+    2. Try to Submit form without a Name (Cannot Submit)
+    3. Try to Submit form without a Surname (Cannot Submit)
+    4. Try to Submit form without a Valid email address (Cannot submit)
+    5. Try to Submit form without a Valid Password (Cannot Submit)
+    6. From the above testing the Signup Form is working as unless the users fills up all the required pats, they cannot submit it.
+   
+3. Clicking on the Different Sections
+    1. Go to the Index Page
+    2. Try to Click on different Sections (Was able to)
+    3. From the above testing, the links are working
+  
+4. Animations 
+    1. Go to the Main Page and ensure the animation is working
+    2. Go to the Subpages and ensure that the Text animation and the background animation is working
+    3. Click on the Main Page and ensure the following pages animation are working
+
+5. Chatbot
+    1. Click on the Chatbots
+    2. When prompted by the Chatbot to type 'Yes, i agree', ensure that sentence must be typed (Working)
+    3. Ensure the chatbot is able to have a conversation with the user and is working (Working)
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
