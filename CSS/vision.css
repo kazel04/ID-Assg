@@ -230,7 +230,7 @@
 
     }
 
-
+/* below animation is referenced from https://codepen.io/alvarotrigo/pen/PoKMyNO */
       .animate-charcter
 {
 background-image: linear-gradient(
@@ -261,6 +261,7 @@ to {
 
 /* above animation is referenced from https://codepen.io/alvarotrigo/pen/PoKMyNO */
 
+/*below animation is referenced from https://codepen.io/mohaiman/pen/MQqMyo */
 .circles{
 position: absolute;
 width: 100%;
